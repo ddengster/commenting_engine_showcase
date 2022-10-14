@@ -24,8 +24,6 @@ Requires go 1.18.
 
 - Generate rsa keypairs via `openssl genrsa -out app.rsa 4096` and `openssl rsa -in app.rsa -pubout > app.rsa.pub` and place them in the same location as the executable generated.
 
-- `go get <dep>` all the dependencies in the `**.go` `import` code.
-
 - `go mod vendor` to vendor a local copy of dependencies.
 
 - `go build` compiles all `go` files to `main.exe` 
