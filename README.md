@@ -2,6 +2,8 @@
 
 Threaded commenting engine using golang for server backend and plain html/js/css frontend. Learning, straight to core project, don't expect any standards and extensibility.
 
+[/showcase_img/showcase.png]
+
 ## Features
 
 - Threaded comments, sanitization and supported by markdown (minus images)
